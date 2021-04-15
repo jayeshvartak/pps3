@@ -1,12 +1,12 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createPpsCheque = /* GraphQL */ `
-  mutation CreatePpsCheque(
-    $input: CreatePPSChequeInput!
-    $condition: ModelPPSChequeConditionInput
+export const createCheque = /* GraphQL */ `
+  mutation CreateCheque(
+    $input: CreateChequeInput!
+    $condition: ModelChequeConditionInput
   ) {
-    createPPSCheque(input: $input, condition: $condition) {
+    createCheque(input: $input, condition: $condition) {
       id
       payee
       amountWord
@@ -20,12 +20,12 @@ export const createPpsCheque = /* GraphQL */ `
     }
   }
 `;
-export const updatePpsCheque = /* GraphQL */ `
-  mutation UpdatePpsCheque(
-    $input: UpdatePPSChequeInput!
-    $condition: ModelPPSChequeConditionInput
+export const updateCheque = /* GraphQL */ `
+  mutation UpdateCheque(
+    $input: UpdateChequeInput!
+    $condition: ModelChequeConditionInput
   ) {
-    updatePPSCheque(input: $input, condition: $condition) {
+    updateCheque(input: $input, condition: $condition) {
       id
       payee
       amountWord
@@ -39,12 +39,12 @@ export const updatePpsCheque = /* GraphQL */ `
     }
   }
 `;
-export const deletePpsCheque = /* GraphQL */ `
-  mutation DeletePpsCheque(
-    $input: DeletePPSChequeInput!
-    $condition: ModelPPSChequeConditionInput
+export const deleteCheque = /* GraphQL */ `
+  mutation DeleteCheque(
+    $input: DeleteChequeInput!
+    $condition: ModelChequeConditionInput
   ) {
-    deletePPSCheque(input: $input, condition: $condition) {
+    deleteCheque(input: $input, condition: $condition) {
       id
       payee
       amountWord

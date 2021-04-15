@@ -1,9 +1,9 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreatePpsCheque = /* GraphQL */ `
-  subscription OnCreatePpsCheque {
-    onCreatePPSCheque {
+export const onCreateCheque = /* GraphQL */ `
+  subscription OnCreateCheque {
+    onCreateCheque {
       id
       payee
       amountWord
@@ -17,9 +17,9 @@ export const onCreatePpsCheque = /* GraphQL */ `
     }
   }
 `;
-export const onUpdatePpsCheque = /* GraphQL */ `
-  subscription OnUpdatePpsCheque {
-    onUpdatePPSCheque {
+export const onUpdateCheque = /* GraphQL */ `
+  subscription OnUpdateCheque {
+    onUpdateCheque {
       id
       payee
       amountWord
@@ -33,9 +33,9 @@ export const onUpdatePpsCheque = /* GraphQL */ `
     }
   }
 `;
-export const onDeletePpsCheque = /* GraphQL */ `
-  subscription OnDeletePpsCheque {
-    onDeletePPSCheque {
+export const onDeleteCheque = /* GraphQL */ `
+  subscription OnDeleteCheque {
+    onDeleteCheque {
       id
       payee
       amountWord

@@ -1,4 +1,4 @@
-type PPSCheque @model {
+type Cheque @model {
   id: ID!
   payee: String
   amountWord: String

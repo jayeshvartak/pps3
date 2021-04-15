@@ -1,9 +1,9 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getPpsCheque = /* GraphQL */ `
-  query GetPpsCheque($id: ID!) {
-    getPPSCheque(id: $id) {
+export const getCheque = /* GraphQL */ `
+  query GetCheque($id: ID!) {
+    getCheque(id: $id) {
       id
       payee
       amountWord
@@ -17,13 +17,13 @@ export const getPpsCheque = /* GraphQL */ `
     }
   }
 `;
-export const listPpsCheques = /* GraphQL */ `
-  query ListPpsCheques(
-    $filter: ModelPPSChequeFilterInput
+export const listCheques = /* GraphQL */ `
+  query ListCheques(
+    $filter: ModelChequeFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listPPSCheques(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listCheques(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
         payee

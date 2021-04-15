@@ -23,7 +23,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 7,
-              "description": "pps3-key"
+              "description": "pps3key"
             }
           },
           "additionalAuthenticationProviders": []
