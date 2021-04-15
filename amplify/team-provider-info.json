@@ -20,6 +20,12 @@
       },
       "auth": {
         "pps3d8eec714": {}
+      },
+      "function": {
+        "S3Trigger9cb8c9cd": {
+          "deploymentBucketName": "amplify-pps3-dev-135424-deployment",
+          "s3Key": "amplify-builds/S3Trigger9cb8c9cd-49675978716a6b597a58-build.zip"
+        }
       }
     }
   }
